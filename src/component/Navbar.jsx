@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Symbol.png" className='w-11'></img>
         </div>
             {/* location */}
-          <div className='gap-2 flex px-2 py-2  mx-3 '>
+          <div className='gap-2 flex px-2 py-2  mx-3 w-full'>
             <div className='border-2  border-black '>
           <div className='text-sm bg-white w-40 h-6 font-light px-2'>
             India
@@ -17,7 +17,7 @@ const Navbar = () => {
            </div>
 
           {/* finds */}
-        <div className='border-2  border-black '>
+        <div className='border-2  border-black w-full '>
           <div className='text-sm bg-white w-full h-6 font-light px-2 '>
             Find Cars,Mobile Phones and more...
             </div>
@@ -46,6 +46,7 @@ const Navbar = () => {
           </div>
         
       </nav>
+     
     </div>
   )
 }
