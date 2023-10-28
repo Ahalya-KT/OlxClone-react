@@ -4,7 +4,7 @@ import {AiOutlineSearch} from 'react-icons/ai'
 const Navbar = () => {
   return (
     <div>
-      <nav className='flex px-10 py-2 bg-gray-100 items-center border-b-4 border-white shadow fixed w-full '>
+      <nav className='flex px-10 py-2 bg-gray-100 items-center border-b-4 border-white shadow fixed z-20 w-full '>
         <div>
           <img src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Symbol.png" className='w-11'></img>
         </div>
