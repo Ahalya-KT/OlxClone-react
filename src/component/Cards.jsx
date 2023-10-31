@@ -1,13 +1,9 @@
 import React from 'react'
-import {BsLightningChargeFill} from 'react-icons/bs'
-import {AiOutlineHeart} from 'react-icons/ai'
 
 const Cards = () => {
   return (
     <div>
-
-
-       
+        {/* cards */}
       <div className=' bg-gray-100 h-96 m-9 rounded-md px-8 py-5'>
         
         <div className='pb-4 text-1xl'>
