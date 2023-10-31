@@ -8,7 +8,7 @@ import Footer from './component/Footer'
 import Navbar from './component/Navbar'
 import Recoment from './component/Recoment.Jsx'
 import Review from './component/Review.jsx'
-import LastSearch from './component/LastSearch.jsx'
+
 
 function App() {
   
@@ -25,7 +25,7 @@ function App() {
      </div>
 
 
-        <div>
+        {/* <div>
           <LastSearch/>
         </div>
 
@@ -35,7 +35,7 @@ function App() {
 
      <div>
       <Recoment/>
-     </div>
+     </div> */}
 
       
       <div>

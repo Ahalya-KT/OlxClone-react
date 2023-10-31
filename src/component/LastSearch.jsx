@@ -22,6 +22,13 @@ const Cards = () => {
   return (
     <div>
 
+        <div className='pb-4 text-xl'>
+
+        Based on Your Last Search
+
+        </div>
+
+
       {items && items.map(li=>{
         console.log(li);
         return <div className='w-52 '>

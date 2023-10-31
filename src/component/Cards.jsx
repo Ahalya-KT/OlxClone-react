@@ -6,11 +6,6 @@ const Cards = () => {
         {/* cards */}
       <div className=' bg-gray-100 h-96 m-9 rounded-md px-8 py-5'>
         
-        <div className='pb-4 text-1xl'>
-
-            Based on Your Last Search
-
-        </div>
         
             <div className='bg-white w-72  relative' >
             <div className='px-7'>
