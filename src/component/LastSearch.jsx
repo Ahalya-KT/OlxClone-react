@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { BsLightningChargeFill } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
 import axios from "axios";
 import Cards from "./Cards";
 
@@ -9,7 +7,7 @@ const LastSearch = () => {
 
   async function Carddetails() {
     await axios
-      .get("https://fakestoreapi.com/products")
+      .get("https://fakestoreapi.com/products?limit=4")
       // .then(res=>res.json())
       .then((res) => setitems(res.data));
   }
@@ -17,14 +15,13 @@ const LastSearch = () => {
 
   return (
     <div>
-      <div className="pb-4 text-xl">Based on Your Last Search</div>
-      <div className="flex flex-wrap">
+      
+      <div className="pb-4 text-xl pt-5 px-7">Based on Your Last Search</div>
+      <div className="flex bg-gray-100 h-80">
         {items &&
-          items.map((li) => {
-            console.log(li);
-            return;
-
-            <Cards />;
+          items.map((item) => {
+            console.log(item);
+            return  <Cards item={item} />
             //  <div className='w-52 '>
             //   <img  src={li.image}></img>
             //   <p>{li.id}</p>
@@ -32,6 +29,7 @@ const LastSearch = () => {
             //   <p>{li.price}</p>
             // </div>
           })}
+       
       </div>
     </div>
   );

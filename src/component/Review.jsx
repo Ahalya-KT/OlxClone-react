@@ -2,8 +2,8 @@ import React from 'react'
 
 const Review = () => {
   return (
-    <div>
-      <div className='flex flex-row gap-6 bg-zinc-100 w-full h-48'>
+    <div className='pt-10'>
+      <div className='flex flex-row gap-6 bg-zinc-100 w-full h-48 '>
 
         <div>
             <img src="https://statics.olx.in/external/base/img/phone-app.webp"></img>
