@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {BsLightningChargeFill} from 'react-icons/bs'
 import {AiOutlineHeart} from 'react-icons/ai'
 import axios from 'axios'
+import Cards from './component/Cards.jsx'
 
 const Cards = () => {
 
@@ -27,17 +28,23 @@ const Cards = () => {
         Based on Your Last Search
 
         </div>
+  <div className='flex flex-wrap'>
 
-
-      {items && items.map(li=>{
+{items && items.map(li=>{
         console.log(li);
-        return <div className='w-52 '>
-          <img  src={li.image}></img>
-          <p>{li.id}</p>
-          <p>{li.title}</p>
-          <p>{li.price}</p>
-        </div>
+        return
+
+        <Cards/>
+        //  <div className='w-52 '>
+        //   <img  src={li.image}></img>
+        //   <p>{li.id}</p>
+        //   <p>{li.title}</p>
+        //   <p>{li.price}</p>
+        // </div>
       })}
+</div>
+
+      
        
       
     </div>
