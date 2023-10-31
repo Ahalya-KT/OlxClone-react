@@ -12,7 +12,7 @@ const Cards = ({item}) => {
             <img className="h-full w-full object-contain" src={item.image}></img>
           </div>
           <div className="px-5 py-2  border-l-4 border-yellow-500">
-            <p className="font-bold">{item.price}</p>
+            <p className="font-bold">${item.price}</p>
             <p className="text-sm">{item .title}</p>
             <p className="text-xs text-gray-400">
               {item.category
