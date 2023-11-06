@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Recoment from "./Recoment.Jsx";
+import Recoment from "./Recoment";
 
 const FreshRecomment = () => {
 
@@ -26,9 +26,9 @@ const FreshRecomment = () => {
 
       <div className="flex flex-wrap">
         {dataItem &&
-          dataItem.map((item) => {
-            console.log(item);
-            return <Recoment item={item} />
+          dataItem.map((item,index) => {
+            // console.log(item);
+            return <Recoment item={item} key={index} />
           })}
       </div>
       <div className="  flex items-center justify-center">

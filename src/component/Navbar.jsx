@@ -17,13 +17,13 @@ const Navbar = () => {
            </div>
 
           {/* finds */}
-        <div className='border-2  border-black w-full '>
+        <div className=' border-black w-full '>
           <div className='text-sm bg-white w-full h-6 font-light px-2 '>
             Find Cars,Mobile Phones and more...
             </div>
            {/* <div>
 
-             <AiOutlineSearch className='bg-black text-white w-8 h-7'/>
+             <AiOutlineSearch className='bg-black text-white w-8 h-7'/>border-2 
 
            </div> */}
         </div>

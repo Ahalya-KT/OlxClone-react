@@ -2,7 +2,7 @@ import React from 'react'
 
 const Catgory = () => {
   return (
-    <div className=' pt-20 flex px-4 gap-5 border-b-4 border-white shadow'>
+    <div className=' pt-20 flex px-4 py-3 gap-5 border-b-4 border-white shadow items-center'>
       <div className='font-bold'>
         ALL CATEGORIES
       </div>
